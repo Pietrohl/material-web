@@ -1,11 +1,12 @@
 node_modules
 *.js
-!**/lib/*.js
+*.d.ts
 !web-test-runner.config.js
 !css-to-ts.js
 *.css
 *.css.ts
 *.map
-*.d.ts
+!**/lib/*.d.ts
+!**/lib/*.js
 !types/*.d.ts
 .wireit/
